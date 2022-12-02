@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abitto</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/swiper-bundle.min.js" defer></script>
+    <script src="js/index.js" defer></script>
+  </head>
+  <body>
+    <header class="header container">
+      <div class="navbar">
+        <a href="/index.html" class="logo">
+          <img src="img/logo.svg" alt="logo: Abitto" class="logo-image" />
+        </a>
+        <div class="navbar-panel">
+          <button class="close-menu">
+            <svg
+              width="21"
+              height="21"
+              viewBox="0 0 21 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1 1C15.8833 15.8833 19.8681 19.8681 20 20M1 20C16.2 4.8 18.2847 2.71528 20 1"
+                stroke="black"
+                stroke-width="2" />
+            </svg>
+          </button>
+          <nav class="navbar-menu">
+            <ul class="menu">
+              <li class="menu-item">
+                <a href="#" class="menu-link">Auto</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link">Realty</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link">Work</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link">Services</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="button-group">
+            <a href="#" class="button button-link">Login and registration</a>
+            <a href="#" class="button button-primary">Submit an ad</a>
+          </div>
+        </div>
+        <!-- /.navbar-panel -->
+        <button class="menu-button">
+          <svg
+            width="30"
+            height="30"
+            viewBox="0 0 30 30"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M0.937476 9.37501H29.0624C29.58 9.37501 29.9999 8.95498 29.9999 8.43754C29.9999 7.92002 29.5799 7.50006 29.0624 7.50006H0.937476C0.419955 7.50006 0 7.92009 0 8.43754C0 8.95498 0.420033 9.37501 0.937476 9.37501Z"
+              fill="black" />
+            <path
+              d="M29.0624 14.0626H0.937476C0.419955 14.0626 0 14.4826 0 15C0 15.5175 0.420033 15.9375 0.937476 15.9375H29.0624C29.58 15.9375 29.9999 15.5175 29.9999 15C29.9999 14.4826 29.58 14.0626 29.0624 14.0626Z"
+              fill="black" />
+            <path
+              d="M29.0625 20.625H10.3125C9.79495 20.625 9.375 21.0451 9.375 21.5625C9.375 22.08 9.79503 22.5 10.3125 22.5H29.0625C29.58 22.5 29.9999 22.0799 29.9999 21.5625C30 21.045 29.58 20.625 29.0625 20.625Z"
+              fill="black" />
+          </svg>
+        </button>
+      </div>
+      <!-- /.navbar -->
+      <div class="search-panel">
+        <input type="search" class="search-input" placeholder="Search by ads" />
+        <button class="button search-button">
+          <svg
+            class="search-icon"
+            width="15"
+            height="15"
+            viewBox="0 0 15 15"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0)">
+              <path
+                d="M14.6506 14.0012L10.0862 9.43675C10.9465 8.43352 11.4706 7.13293 11.4706 5.71058C11.4706 2.54822 8.89765 -0.0247192 5.7353 -0.0247192C4.20353 -0.0247192 2.76265 0.571751 1.67824 1.6544C0.595589 2.73793 -0.000881376 4.17881 9.77541e-07 5.71058C9.77541e-07 8.87293 2.57294 11.4459 5.7353 11.4459C7.15765 11.4459 8.45912 10.9218 9.46235 10.0615L14.0268 14.6259L14.6506 14.0012ZM5.7353 10.5635C3.06 10.5635 0.882354 8.38675 0.882354 5.71058C0.881472 4.41352 1.38618 3.19499 2.30294 2.2791C3.21882 1.36234 4.43824 0.857634 5.7353 0.857634C8.41059 0.857634 10.5882 3.0344 10.5882 5.71058C10.5882 8.38587 8.41059 10.5635 5.7353 10.5635Z"
+                fill="white" />
+            </g>
+            <defs>
+              <clipPath id="clip0">
+                <rect width="15" height="15" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+
+          <span class="search-button_name">Search</span>
+        </button>
+      </div>
+      <!-- /.search-panel -->
+    </header>
+    <!-- header -->
+
+    <div class="page-content container">
+      <main class="main">
+        <h2 class="page-title">Recommendations for you</h2>
+        <div class="cards">
+          <div class="card">
+            <a href="single.html" class="card-link">
+              <img src="img/card-image1.jpg" alt="photo" class="card-image" />
+            </a>
+            <div class="card-header">
+              <a href="single.html" class="card-link">
+                <h3 class="card-title">Electric scooter</h3>
+              </a>
+              <button class="like">
+                <img src="img/like.svg" alt="like" class="like-image" />
+              </button>
+            </div>
+            <strong class="card-price">150$</strong>
+            <p class="card-text">Kazan, Novo-Savinovsky district.</p>
+            <p class="card-text">10 July, 10:25</p>
+          </div>
+          <!-- card -->
+          <div class="card">
+            <a href="single.html" class="card-link">
+              <img src="img/card-image2.jpg" alt="photo" class="card-image" />
+            </a>
+            <div class="card-header">
+              <a href="single.html" class="card-link">
+                <h3 class="card-title">PVC material. 2nd grade.</h3>
+              </a>
+              <button class="like">
+                <img src="img/like.svg" alt="like" class="like-image" />
+              </button>
+            </div>
+            <strong class="card-price">5$</strong>
+            <p class="card-text">Kazan, Vakhitovsky district.</p>
+            <p class="card-text">11 July, 13:25</p>
+          </div>
+          <!-- card -->
+          <div class="card">
+            <a href="single.html" class="card-link">
+              <img src="img/card-image3.jpg" alt="photo" class="card-image" />
+            </a>
+            <div class="card-header">
+              <a href="single.html" class="card-link">
+                <h3 class="card-title">Double-sided windbreaker<br />for a boy</h3>
+              </a>
+              <button class="like">
+                <img src="img/like.svg" alt="like" class="like-image" />
+              </button>
+            </div>
+            <strong class="card-price">50$</strong>
+            <p class="card-text">Kazan, Novo-Savinovsky district.</p>
+            <p class="card-text">9 July, 15:17</p>
+          </div>
+          <!-- card -->
+          <div class="card">
+            <a href="single.html" class="card-link">
+              <img src="img/card-image4.jpg" alt="photo" class="card-image" />
+            </a>
+            <div class="card-header">
+              <a href="single.html" class="card-link">
+                <h3 class="card-title">Changing board on the dresser</h3>
+              </a>
+              <button class="like">
+                <img src="img/like.svg" alt="like" class="like-image" />
+              </button>
+            </div>
+            <strong class="card-price">5$</strong>
+            <p class="card-text">Kazan, Novo-Savinovsky district.</p>
+            <p class="card-text">10 July, 17:17</p>
+          </div>
+          <!-- card -->
+          <div class="card">
+            <a href="single.html" class="card-link">
+              <img src="img/card-image5.jpg" alt="photo" class="card-image" />
+            </a>
+            <div class="card-header">
+              <a href="single.html" class="card-link">
+                <h3 class="card-title">Unique house villa for sale.</h3>
+              </a>
+              <button class="like">
+                <img src="img/like.svg" alt="like" class="like-image" />
+              </button>
+            </div>
+            <strong class="card-price">25 000$</strong>
+            <p class="card-text">Kazan, Novo-Savinovsky district.</p>
+            <p class="card-text">10 July, 16:05</p>
+          </div>
+          <!-- card -->
+          <div class="card">
+            <a href="single.html" class="card-link">
+              <img src="img/card-image6.jpg" alt="photo" class="card-image" />
+            </a>
+            <div class="card-header">
+              <a href="single.html" class="card-link">
+                <h3 class="card-title">Ford Fusion, 2007</h3>
+              </a>
+              <button class="like">
+                <img src="img/like.svg" alt="like" class="like-image" />
+              </button>
+            </div>
+            <strong class="card-price">5 000$</strong>
+            <p class="card-text">Kazan, Novo-Savinovsky district.</p>
+            <p class="card-text">10 July, 11:39</p>
+          </div>
+          <!-- card -->
+          <div class="card">
+            <a href="single.html" class="card-link">
+              <img src="img/mic.jpg" alt="photo" class="card-image" />
+            </a>
+            <div class="card-header">
+              <a href="single.html" class="card-link">
+                <h3 class="card-title">Neumann U 87 AI</h3>
+              </a>
+              <button class="like">
+                <img src="img/like.svg" alt="like" class="like-image" />
+              </button>
+            </div>
+            <strong class="card-price">3 000$</strong>
+            <p class="card-text">Kazan, Novo-Savinovsky district.</p>
+            <p class="card-text">10 July, 19:15</p>
+          </div>
+          <!-- card -->
+          <div class="card">
+            <a href="single.html" class="card-link">
+              <img src="img/la2a.jpg" alt="photo" class="card-image" />
+            </a>
+            <div class="card-header">
+              <a href="single.html" class="card-link">
+                <h3 class="card-title">Universal Audio LA-2A</h3>
+              </a>
+              <button class="like">
+                <img src="img/like.svg" alt="like" class="like-image" />
+              </button>
+            </div>
+            <strong class="card-price">10 000$</strong>
+            <p class="card-text">Kazan, Novo-Savinovsky district.</p>
+            <p class="card-text">10 July, 18:30</p>
+          </div>
+          <!-- card -->
+          <div class="card">
+            <a href="#single.html" class="card-link">
+              <img src="img/studer.jpg" alt="photo" class="card-image" />
+            </a>
+            <div class="card-header">
+              <a href="single.html" class="card-link">
+                <h3 class="card-title">Studer A800 Tape Recorder</h3>
+              </a>
+              <button class="like">
+                <img src="img/like.svg" alt="like" class="like-image" />
+              </button>
+            </div>
+            <strong class="card-price">15 000$</strong>
+            <p class="card-text">Kazan, Novo-Savinovsky district.</p>
+            <p class="card-text">10 July, 20:00</p>
+          </div>
+          <!-- card -->
+        </div>
+      </main>
+      <aside class="side-bar">
+        <h4 class="aside-title">Services and services.</h4>
+        <div class="service">
+          <img src="img/shipping.svg" alt="icon: shipping" class="service-image" />
+          <h5 class="service-title">Delivery.</h5>
+          <p class="service-description">
+            Verification upon receipt and the opportunity to return the goods for free.
+          </p>
+        </div>
+        <div class="service">
+          <img src="img/sedan.svg" alt="icon: shipping" class="service-image" />
+          <h5 class="service-title">Car library.</h5>
+          <p class="service-description">
+            Report with the history of the car: mileage, owners, information about collateral,
+            accidents and repairs.
+          </p>
+        </div>
+        <div class="service">
+          <img src="img/sweet-home.svg" alt="icon: shipping" class="service-image" />
+          <h5 class="service-title">Online booking of accommodation.</h5>
+          <p class="service-description">
+            Daily rent of apartments and houses: a large selection of options for trips around
+            Russia.
+          </p>
+        </div>
+        <hr color="#E5E5E5" />
+
+        <footer class="footer">
+          <p class="footer-text">© ООО «Abitto», 2011–2022</p>
+          <ul class="footer-menu">
+            <li class="footer-menu_item">
+              <a href="#" class="footer-text footer-text_item">Privacy policy</a>
+            </li>
+            <li class="footer-menu_item">
+              <a href="#" class="footer-text footer-text_item">Data processing</a>
+            </li>
+          </ul>
+          <ul class="footer-menu">
+            <li class="footer-menu_item">
+              <a href="#" class="footer-link">Advertising on the website</a>
+            </li>
+            <li class="footer-menu_item">
+              <a href="#" class="footer-link">Job openings</a>
+            </li>
+            <li class="footer-menu_item">
+              <a href="#" class="footer-link">Help</a>
+            </li>
+          </ul>
+        </footer>
+      </aside>
+    </div>
+    <!-- /.page-content -->
+  </body>
+</html>
